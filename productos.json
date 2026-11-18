@@ -1,0 +1,108 @@
+{
+  "_GUIA_EDICION_RAPIDA": {
+    "1_COMO_EDITAR_PRECIOS": "Busca el producto en la lista 'productos' y cambia el número en 'precio' (sin comillas ni 'S/', usa punto para decimales, ej. 250.00). Si pones 0, aparecerá 'Consultar'.",
+    "2_COMO_CAMBIAR_FOTOS": "Guarda la foto en la carpeta 'img/productos/' y escribe su ruta en 'imagen' (ej. 'img/productos/mi-foto.jpg').",
+    "3_COMO_AGREGAR_MAS_PRODUCTOS": "Copia todo un bloque desde { hasta }, pégalo al final de la lista 'productos' (separado por una coma), cambia el 'id' por el siguiente número y edita sus datos.",
+    "4_CATEGORIAS_DISPONIBLES": "tv-audio | electrodomesticos | computo | energia"
+  },
+  "tienda": "Eswin Clavijo Electrocentro",
+  "moneda": "PEN",
+  "simboloMoneda": "S/",
+  "categorias": [
+    {
+      "id": "tv-audio",
+      "nombre": "TV y Audio"
+    },
+    {
+      "id": "electrodomesticos",
+      "nombre": "Electrodomésticos"
+    },
+    {
+      "id": "computo",
+      "nombre": "Cómputo y Redes"
+    },
+    {
+      "id": "energia",
+      "nombre": "Energía e Iluminación"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "activo": true,
+      "nombre": "Ventilador Industrial Queen 30\" 400W",
+      "categoria": "electrodomesticos",
+      "descripcion": "30 pulgadas, 400W de potencia, gran flujo de aire y diseño industrial reforzado para negocios, talleres y almacenes.",
+      "imagen": "img/productos/ventilador-industrial-queen-30.png",
+      "iconoFallback": "🌀",
+      "precio": 250.0,
+      "badge": "400W Industrial"
+    },
+    {
+      "id": 2,
+      "activo": true,
+      "nombre": "Cámara Wi-Fi EZVIZ H6C 1080p Full HD",
+      "categoria": "computo",
+      "descripcion": "Rotación panorámica 360°, sensor de movimiento con alertas al celular, visión nocturna y conexión Wi-Fi con app gratuita.",
+      "imagen": "img/productos/camara-ezviz-h6c.png",
+      "iconoFallback": "📹",
+      "precio": 120.0,
+      "badge": "360° Full HD"
+    },
+    {
+      "id": 3,
+      "activo": true,
+      "nombre": "Kit de Energía Solar Full Max - Inversor 1000W",
+      "categoria": "energia",
+      "descripcion": "Incluye panel solar, inversor Full Max 1000W (12V DC a 220V/240V AC), batería y 2 focos LED para viviendas, negocios y campo.",
+      "imagen": "img/productos/kit-energia-solar-full-max-1000w.png",
+      "iconoFallback": "☀️",
+      "precio": 0,
+      "badge": "Inversor 1000W"
+    },
+    {
+      "id": 4,
+      "activo": true,
+      "nombre": "Kit de Repostería: Horno Eléctrico Doral + Batidora Ufesa",
+      "categoria": "electrodomesticos",
+      "descripcion": "Horno eléctrico portátil Doral con tapa tipo domo + batidora de mano Ufesa ideal para tortas, queques, postres y cremas.",
+      "imagen": "img/productos/kit-reposteria-horno-batidora.png",
+      "iconoFallback": "🎂",
+      "precio": 250.0,
+      "badge": "Combo Repostería"
+    },
+    {
+      "id": 5,
+      "activo": true,
+      "nombre": "Parlante Amplificado Euton 15\" 160W",
+      "categoria": "tv-audio",
+      "descripcion": "Woofer de 15 pulgadas, 160W de potencia, luces LED RGB, compatible con trípode. Incluye micrófono, control remoto y cable.",
+      "imagen": "img/productos/parlante-amplificado-euton-15-160w.png",
+      "iconoFallback": "🔊",
+      "precio": 250.0,
+      "badge": "Incluye micrófono"
+    },
+    {
+      "id": 6,
+      "activo": true,
+      "nombre": "Parlante Portátil Sonivox / Dexbo 15\" DX-P3710",
+      "categoria": "tv-audio",
+      "descripcion": "15 pulgadas con ruedas de transporte, tecnología TWS, 2 micrófonos inalámbricos, control remoto, Bluetooth, USB, Micro SD y Radio FM.",
+      "imagen": "img/productos/parlante-portatil-sonivox-dexbo-15.jpg",
+      "iconoFallback": "🎵",
+      "precio": 650.0,
+      "badge": "2 Micrófonos"
+    },
+    {
+      "id": 7,
+      "activo": true,
+      "nombre": "TV Box 4K Ultra HD Roscoh RC-H9758",
+      "categoria": "tv-audio",
+      "descripcion": "Convierte tu TV en Smart TV 4K. Conexión Wi-Fi, salida HDMI, control remoto incluido y acceso a Netflix, YouTube, Prime Video y más.",
+      "imagen": "img/productos/tv-box-4k-roscoh.jpg",
+      "iconoFallback": "📺",
+      "precio": 0,
+      "badge": "4K Ultra HD"
+    }
+  ]
+}
